@@ -83,3 +83,8 @@ input[type="submit"]:hover {
 .form select {
   height: 30px;
 }
+
+.content {
+  display: flex;
+  gap: 2rem;
+}
