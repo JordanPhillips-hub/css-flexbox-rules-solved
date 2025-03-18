@@ -23,20 +23,20 @@ p {
 }
 
 /* 👇👇👇  ADD YOUR FORM STYLES BENEATH  👇👇👇*/
+#sign-in,
+#sign-up {
+  width: 100%;
+  gap: 1.5rem;
+}
+
+#sign-in-form,
+#sign-up-form {
+  gap: 1.56rem;
+}
 
 form {
   border: 1px solid #a9a9a9;
   padding: 20px;
-}
-
-.subtext {
-  color: #a9a9a9;
-  font-weight: unset;
-}
-
-#sign-in,
-#sign-up {
-  width: 100%;
 }
 
 a {
@@ -84,7 +84,50 @@ input[type="submit"]:hover {
   height: 30px;
 }
 
-.content {
+.form-group-horizontal-control .form-input-control {
+  flex: 1;
+}
+
+.subtext {
+  color: #a9a9a9;
+  font-weight: unset;
+}
+
+.form-submit-control,
+.form-checkbox-control {
+  align-items: center;
+}
+
+.flex-column {
   display: flex;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.content {
   gap: 2rem;
+}
+
+.form-header {
+  gap: 0.5rem;
+}
+
+.form-input-control {
+  gap: 0.35rem;
+}
+
+.form-checkbox-control {
+  gap: 0.6rem;
+}
+
+.form-submit-control {
+  justify-content: center;
+  gap: 2.2rem;
+}
+
+.form-group-horizontal-control {
+  gap: 1.5rem;
 }
